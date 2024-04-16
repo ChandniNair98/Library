@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 3vb;
+    padding: 2vb;
+}
+
+h1{
+   text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3vb;
+    
+}
+
+#new-book{
+    padding: 1vb 2vb;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5vb;
+    cursor: pointer;
+}
+
+#book-form{
+    border: 2px solid black;
+    margin: 2vb;
+    padding: 2vb;
+}
+
+#dynamicContent{
+    margin: 2vb;
+    padding: 2vb;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    border: 2px solid black;
+   
+    width: 40vb;
+    height: 35vb;
+    margin: 3vb;
+    padding: 1vb;
+
+    
+   
+}
+.card p{
+    font-size: larger;
+    padding: 1vb;
+    
+
+}
+
+#remove{
+    padding: 1vb 2vb;
+    margin: 1vb;
+}
+
+#toggle{
+    padding: 1vb 2vb;
+    margin: 1vb;
+}
